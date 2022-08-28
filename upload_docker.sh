@@ -5,11 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=abbas13/housing-prediction
 
 # Step 2:  
 # Authenticate & tag
+docker login
+docker tag housing-prediction:v1.00 $dockerpath:v1.00
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
-# Push image to a docker repository
+docker push $dockerpath:v1.00

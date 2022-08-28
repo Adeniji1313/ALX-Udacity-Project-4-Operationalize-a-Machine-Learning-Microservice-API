@@ -1,0 +1,8 @@
+AME                                      READY   STATUS    RESTARTS   AGE
+pod/housing-prediction-5b7494b5cb-7bhmw   1/1     Running   0          48m
+
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/housing-prediction   1/1     1            1           48m
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
